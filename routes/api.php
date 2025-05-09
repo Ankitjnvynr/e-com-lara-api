@@ -28,7 +28,7 @@ Route::prefix('v1')->middleware('api')->group(function () {
         'name' => config('app.name'),
         'version' => config('app.version'),
         'build' => config('app.env'),
-        'created_by' => 'Kazukikun'
+        'created_by' => 'Ankit'
     ]);
     /**
      * Auth Routes, for authentication process
